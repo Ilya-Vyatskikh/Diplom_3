@@ -12,4 +12,3 @@ class SuccessOrderModalLocators:
 
 
     ORDER_SUCCESS_NUMBER = (By. XPATH, ".//h2[@class='Modal_modal__title_shadow__3ikwq Modal_modal__title__2L34m text text_type_digits-large mb-8']") # номер заказа
-    #OVERLAY = (By.XPATH, ".//div[contains(@class, 'Modal_modal_overlay__x2ZCr')]/parent::div")
