@@ -14,7 +14,7 @@ class TestOrdersFeed:
         "Проверить, что при оформлении заказа счётчики на странице 'Лента заказов' увеличиваются"
     )
     @pytest.mark.parametrize('counter', [OrderFeedLocators.COUNTER_TOTAL, OrderFeedLocators.COUNTER_TODAY])
-    def test_upgrade_counter_total_orders(self, driver, login, counter):
+    def test_upgrade_counter_orders(self, driver, login, counter):
         main_page = MainPage(driver)
         orders_page = OrdersFeedPage(driver)
         main_page.main_page_loading_wait()
