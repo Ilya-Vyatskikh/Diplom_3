@@ -8,6 +8,3 @@ class OrderFeedLocators:
 
     # Раздел "В работе" (номера заказов, которые в процессе)
     IN_PROGRESS_LIST = (By.XPATH, "//ul[contains(@class, 'OrderFeed_orderListReady')]//li")
-
-    # Оверлей для закрытия модального окна
-    OVERLAY = (By.XPATH, "//div[contains(@class, 'Modal_modal_overlay')]")  # клик по фону закрывает окно

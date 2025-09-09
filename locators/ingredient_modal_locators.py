@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 class IngredientLocators:
 
     """Модальное окно 'Детали ингридиента'"""
-    WINDOW_MODAL_ING = (By.XPATH, "//h2[text()='Детали ингредиента']/ancestor::div[2]")
+    WINDOW_MODAL_ING = (By.XPATH, "//h2[text()='Детали ингредиента']/parent::div")
 
     """Заголовок модального окна 'Детали ингредиентов'"""
     HEADER_MODAL_ING = (By.XPATH,"//h2[text()='Детали ингредиента']")

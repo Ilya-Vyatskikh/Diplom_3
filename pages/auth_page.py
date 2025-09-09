@@ -7,8 +7,7 @@ from data.urls import login_site
 
 
 class AuthPage(BasePage):
-    def __init__(self, driver):
-        super().__init__(driver)
+
 
     @allure.step('Открыть страницу авторизации')
     def open_login_page(self):

@@ -7,8 +7,6 @@ from data.urls import *
 
 
 class OrdersFeedPage(BasePage):
-    def __init__(self, driver):
-        super().__init__(driver)
 
     @allure.step('Получить значение счётчика')
     def get_value_any_counter(self, locator):

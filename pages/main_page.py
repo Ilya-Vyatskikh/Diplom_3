@@ -8,8 +8,6 @@ from data.urls import *
 
 
 class MainPage(BasePage):
-    def __init__(self, driver):
-        super().__init__(driver)
 
     @allure.step('Дождаться загрузки страницы')
     def main_page_loading_wait(self):
